@@ -4,7 +4,7 @@
 ; Author: Professor Krasso
 ; Date:   06 June 2020
 ; Modified By: Juvenal Gonzalez
-; Description: Displays a formatted header
+; Description: function to be called to display a formatted header
 ;===========================================
 */
 
