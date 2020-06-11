@@ -15,9 +15,11 @@
 */
 //this code is being reused and I have only changed the title
 //function that outputs 3 string variables in proper header format.
+//6/11/2020 \n added
 exports.display = function (firstName, lastName, assignment) {
 	let output = '\n' + firstName + ' ' + lastName + '\n' + assignment + '\nDate: ' +
-	new Date().toLocaleDateString('en-US');
+	new Date().toLocaleDateString('en-US') + "\n";
 
 	return output;
 }
+
