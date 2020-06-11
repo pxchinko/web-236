@@ -1,8 +1,9 @@
 /*
 ============================================
 ; Title:  gonzalez-exercise-3.2.js
-; Author: Juvenal Gonzalez
+; Author: Professor Krasso
 ; Date:   11 June 2020
+; Modified by: Juvenal Gonzalez
 ; Description: One function to test matching parameters, two functions
 ; with outputs for a true or false statement. Conditional if statements
 ; test the matching function and provide the proper output.
@@ -29,7 +30,6 @@
 
 
 const header = require('../week-2/gonzalez-header');
-header.Date =  new Date(2015, 6-1, 2);
 console.log(header.display("Juvenal", "Gonzalez", "Exercise 3.2"));
 
 //function that compares two matching datatypes and values of that datatype
