@@ -33,6 +33,6 @@ console.log("Name:", firstName1, lastName1, "Address:", address1, "Payrate:", pa
 console.log("Name:",firstName2, lastName2, "Address:", address2, "Payrate:", payRate2.toFixed(1), "hiredate:",hireDate2.toLocaleDateString());
 console.log("Name:",firstName3, lastName3, "Address:", address3, "Payrate:", payRate3.toFixed(1), "hiredate:", hireDate3.toLocaleDateString());
 
-// I understand this method as well and its uses hr2 for the output but i liked the above method which uses 3 lines of input
+// I understand this method as well and its uses hr2 for the output but i liked the above method which uses 3 lines of input vs 6 for this method
 //hireDate = new Date(2010, 4-1, 15);
 //var hr2 = hireDate.toLocaleDateString();
