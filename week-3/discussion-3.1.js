@@ -7,6 +7,7 @@
 ;===========================================
 */
 
+//Program does execute but very poorly, I have used two logic errors instead of syntax.
 
 //Properly escape switch without allowing case 2 to execute
 var n = 1;
