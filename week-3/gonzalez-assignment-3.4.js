@@ -41,8 +41,8 @@
 const header = require('../week-2/gonzalez-header');
 console.log(header.display("Juvenal", "Gonzalez", "Exercise 3.4"));
 
-//Function that compares two matching datatypes and values of that datatype
-//Adjusted so that one function achieves what 3 functions previously did
+//Function that compares two matching datatypes and values of that datatype.
+//Adjusted so that one function achieves what 3 functions previously did.
 function match(parameter1, parameter2){
   if(parameter1 === parameter2)
      console.log(parameter1, "does match", parameter2);
@@ -50,22 +50,22 @@ function match(parameter1, parameter2){
      console.log(parameter1, "does not match", parameter2);
 }
 
-//for loop that tests one set random number against
-//8 alternating random numbers
+//For loop that tests one set random number against
+//8 alternating random numbers.
 for(j=0; j< 10; j ++)
 {
-  //sets random number to variable named a
+  //Sets random number to variable named a.
   var a = randomNumber();
-  //Sets random number to b on only first iteration
+  //Sets random number to b on only first iteration.
   if(j === 0){
     var b = a;
-  }//After first iteration the random number is applied to c
+  }//After first iteration the random number is applied to c.
     else{
       var c = a;
     }
    //On 3rd iteration and every one after b & C are
    //passed as parameters to the match() function
-   //and supporting output confirms match or mismatch
+   //and supporting output confirms match or mismatch.
   if(j>1){
     match(b,c)
   }
