@@ -50,7 +50,7 @@ function match(parameter1, parameter2){
      console.log(parameter1, "does not match", parameter2);
 }
 
-//for loop that test one set random number against
+//for loop that tests one set random number against
 //8 alternating random numbers
 for(j=0; j< 10; j ++)
 {
