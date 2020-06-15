@@ -30,7 +30,7 @@ var second = 0;
 while (first < 10) { //The while syntax requires parantheses
                      //around the condition, but it had quotations
                      //so this was corrected
-first;
+first++; // was in infinite loop this variable needed to be incremented
 
 second += first;
 
