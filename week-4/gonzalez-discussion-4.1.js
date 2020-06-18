@@ -6,8 +6,8 @@
 ; Description: Create a JavaScript program with array objects that contain two errors.
 ;===========================================
 */
-
-a = [0,10,13];
+//Sytax error
+a = [0,10,"Money];
 //fix undefined output
 for(i=0; i<4; i++)
   console.log(a[i])
