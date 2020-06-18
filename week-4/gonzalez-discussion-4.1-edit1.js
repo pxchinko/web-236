@@ -1,6 +1,6 @@
 /*
 ============================================
-; Title:  barleta-exercise-3.3.js
+; Title:  gonzalez-discussion-4.1-edit1.js
 ; Author: Marie Nicole Barleta
 ; Date:   18 June 2020
 ; Modified By: Juvenal Gonzalez
