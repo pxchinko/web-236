@@ -74,7 +74,7 @@ var composers = [
   },
   ];
 //array declaration that assigns the values of selected data fields
-//from composers array by storing an object into var a so that
+//from composers array by storing an object into variable a so that
 //multiple data fields may be returned
   var composersByRating = composers.map(function(item) {
     var a = {lastName: item.lastName,
