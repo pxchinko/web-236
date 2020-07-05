@@ -1,7 +1,7 @@
 
 /*
 ============================================
-; Title:  gonzalez-discussion-6.1
+; Title:  gonzalez-discussion-6.2
 ; Author: Juvenal Gonzalez
 ; Date:   05 July 2020
 ; Description: Create a try/catch/finally statement that properly handles an error.
