@@ -1,0 +1,46 @@
+<!--
+Title: Perry- Discussion- 7.1.js
+Author: Erica Perry
+Date:7/09/2020
+Modified: Erica Perry
+Description: At least 2 errors
+-->
+
+<!--Removed spaces between tag arrow and tag names -->
+
+<! DOCTYPE html >
+<html>
+<head>
+</head>
+<body>
+<h1> Do you love snacks: </h1>
+
+
+<h2> Happiness </h2>
+<!--made hidden so that it can be used as a variable and inserted into outputed string variable
+so that it matches expected output -->
+<p hidden id = "Yummy"> smores ! </p>
+
+
+<p id = "delicous"> </p>
+
+
+
+<script>
+
+
+
+var myElement = document.getElementById("Yummy");
+<!--Added equal sign so that string variable plus myElement better could be combined into <p> element -->
+document.getElementById("delicous").innerHTML = " A snack that makes me happy is" + myElement.innerHTML;
+
+
+<!--  expected outcome is
+// Do you love snacks?
+// Happiness
+// " A snack that makes me happy is smores !
+-->
+
+</script>
+</body>
+</html>

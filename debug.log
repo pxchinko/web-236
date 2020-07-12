@@ -1,1 +1,3 @@
 [0709/201759.632:ERROR:settings.cc(325)] Settings version is not 1
+[0710/194838.352:ERROR:file_io.cc(89)] ReadExactly: expected 152, observed 40
+[0711/190440.312:ERROR:settings.cc(325)] Settings version is not 1
