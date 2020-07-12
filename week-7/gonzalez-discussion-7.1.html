@@ -2,6 +2,7 @@
 ; Title:  gonzalez-discussion-7.1
 ; Author: Juvenal Gonzalez
 ; Date:   09 July 2020
+; Modified By:  Sarah Massie
 ; Description: A simple html page with embedded javascript that contains two selector errors
 ;===========================================-->
 
@@ -17,11 +18,11 @@
 
 <script>
 function colorChange() {
-  document.querySelector("changingHeader").style.backgroundColor = "purple"; <!--One Error-->
+  document.querySelector("h1.changingHeader").style.backgroundColor = "purple"; // h1 missing from ""
 }
 
 function colorChange2() {
-  document.querySelector(".changingHeader").style.Color = "gold"; <!--One Error-->
+  document.querySelector("h1.changingHeader").style.color = "gold"; // changed Color to color for correct syntax
 }
 </script>
 
